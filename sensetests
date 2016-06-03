@@ -1,17 +1,22 @@
 #!/bin/bash
 
-#iOS
+#iOS ip, port, device name, device version, udid
 ${IOSTest} localhost 2000 "iPhone 5" 8.0.2 4996d1cb11eef6b2ecdb26486e568da5b460c68b &
-#IOSTest localhost 4000 "QA iPhone 6" 8.4 454957e847db79015fdfa596b4e68f4a3308a6ac &
+
+# IOSTest localhost 4000 "QA iPhone 6" 8.4 454957e847db79015fdfa596b4e68f4a3308a6ac &
 sleep 1
 
 
-#Android
+#Android ip, port, device name, udid
+
 ${AndroidTest} localhost 3000 "Nexus 6P" 5VT7N15A25001890 &
 sleep 1
+
 ${AndroidTest} localhost 4000 "SAMSUNG-SM-G900V" 1d0b9b81 &
 sleep 1
+
 ${AndroidTest} localhost 5000 "Nexus 5" 032b48cb0931767d &
 sleep 1
+
 ${AndroidTest} localhost 6000 "Nexus 5x" 01156ff33fb79c6a &
 
