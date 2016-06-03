@@ -117,7 +117,6 @@ export INTELLIJ_JAR="/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"
   export MOBILE_TESTING_CLASSPATH="${MOBILE_TESTING_CLASSPATH}:${MAVEN_HOME}/commons-io/commons-io/1.4/commons-io-1.4.jar"
   export MOBILE_TESTING_CLASSPATH="${MOBILE_TESTING_CLASSPATH}:${MAVEN_HOME}/com/saucelabs/sauce_java_common/2.1.3/sauce_java_common-2.1.3.jar"
   export MOBILE_TESTING_CLASSPATH="${MOBILE_TESTING_CLASSPATH}:${MAVEN_HOME}/io/appium/java-client/3.4.0/java-client-3.4.0.jar"
-  export MOBILE_TESTING_CLASSPATH="${MOBILE_TESTING_CLASSPATH}:/Users/david/Documents/Hello/MobileAppiumTesting/target/classes"
 
   export CLASSPATH="${CLASSPATH}:${MOBILE_TESTING_CLASSPATH}:${INTELLIJ_JAR}"
   ```
