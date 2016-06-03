@@ -22,7 +22,7 @@ export MAVEN_HOME=/Users/{your username here}/.m2/repository/
 export INTELLIJ_JAR="/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"
 ```
 ###2. Choose one from the two following:
-  1. I don't care what I include:
+    1. I don't care what I include:
     ```
     export CLASSPATH=${CLASSPATH}:${JAVA_HOME}/jre/lib/*/*.jar:${MAVEN_HOME}/*.jar:${INTELLIJ_JAR}
     ```
